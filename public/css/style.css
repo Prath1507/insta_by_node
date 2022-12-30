@@ -1,0 +1,246 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(39, 41, 39);
+    min-height: 100vh;
+    background-image: url("/Vintagebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 180em 200em;
+
+
+}
+
+.mainpage{
+    background-image: url("/Vintagebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 25em 47em;
+
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.display h2 {
+
+
+
+    word-spacing: 5px;
+    text-decoration: none;
+    margin-left: 50px;
+    height: 1px;
+    padding: 25px;
+    color: rgba(77, 55, 6, 0.217);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    text-shadow: 2px 1px #ff05053f;
+
+
+}
+
+.display h4 {
+
+
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: 40px;
+
+    padding: 20px;
+    list-style-type: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(106, 53, 53);
+    text-shadow: 2px 1px #000000;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+.display li {
+
+
+    text-decoration: none;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    height: 1px;
+    padding: 15px;
+    list-style-type: none;
+    width: 10px;
+
+
+}
+
+
+.display li input {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+
+
+}
+
+.display li select {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 100px;
+    float: left;
+    
+    margin-bottom: 20px;
+}
+
+.display li option {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.display li button {
+
+    color: rgb(10, 10, 10);
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.377);
+    border: none;
+    margin-left: 45px;
+
+}
+
+.registration-form {
+    margin: 0px;
+    height: 1px;
+    padding: 0px;
+
+
+}
+
+.registration-form li {
+
+    text-decoration: none;
+    margin-left: 50px;
+    height: 1px;
+    padding: 15px;
+    list-style-type: none;
+    width: 10px;
+
+}
+
+.registration-form h3 {
+
+    text-decoration: none;
+    margin-left: 50px;
+    height: 1px;
+    margin-top: 10px;
+    padding: 15px;
+    list-style-type: none;
+    width: 10px;
+
+
+}
+
+.registration-form li input {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+
+}
+
+.registration-form li select {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+    color: rgb(10, 10, 10);
+    margin-bottom: 10px;
+}
+
+.registration-form li option {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+    color: rgb(8, 8, 8);
+    margin-bottom: 10px;
+}
+
+.registration-form li button {
+
+    color: rgb(10, 10, 10);
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(4, 151, 7);
+    border: none;
+
+}
+
+.user {
+    background-image: url("/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 23em 47em;
+
+
+}
+
+.name {
+
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.discription {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    width:13em;
+
+
+}
+
+.birthdate {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 14px;
+
+}

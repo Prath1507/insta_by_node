@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    margin: 10px;
+    padding: 10px;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(39, 41, 39);
+    min-height: 100vh;
+    background-image: url("/backpic.jpg");
+    background-repeat: no-repeat;
+    background-size: 180em 200em;
+
+
+}
+
+.mainpage{
+    background-image: url("/mainback.jpg");
+    background-repeat: no-repeat;
+    background-size: 25em 47em;
+
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.display h2 {
+
+
+
+    word-spacing: 5px;
+    text-decoration: none;
+    margin-left: 50px;
+    height: 1px;
+    padding: 25px;
+    color: rgba(77, 55, 6, 0.217);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    text-shadow: 2px 1px #ff05053f;
+
+
+}
+
+.display h4 {
+
+
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: 40px;
+
+    padding: 20px;
+    list-style-type: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(106, 53, 53);
+    text-shadow: 2px 1px #000000;
+    font-size: 25px;
+
+}
+
+
+
+
+
+
+.display li {
+
+
+    text-decoration: none;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    height: 1px;
+    padding: 15px;
+    list-style-type: none;
+    width: 10px;
+
+
+}
+
+
+.display li input {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 100px;
+
+
+}
+
+.display li select {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+    margin-right: 100px;
+    float: left;
+    
+    margin-bottom: 20px;
+}
+
+.display li option {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.display li button {
+
+    color: rgb(10, 10, 10);
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.377);
+    border: none;
+    margin-left: 45px;
+
+}
+
+.registration-form {
+    margin: 0px;
+    height: 1px;
+    padding: 0px;
+
+
+}
+
+.registration-form li {
+
+    text-decoration: none;
+    margin-left: 50px;
+    height: 1px;
+    padding: 15px;
+    list-style-type: none;
+    width: 10px;
+
+}
+
+.registration-form h3 {
+
+    text-decoration: none;
+    margin-left: 50px;
+    height: 1px;
+    margin-top: 10px;
+    padding: 15px;
+    list-style-type: none;
+    width: 10px;
+
+
+}
+
+.registration-form li input {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+
+}
+
+.registration-form li select {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+    color: rgb(10, 10, 10);
+    margin-bottom: 10px;
+}
+
+.registration-form li option {
+
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1px;
+    margin-right: 100px;
+    float: left;
+    color: rgb(8, 8, 8);
+    margin-bottom: 10px;
+}
+
+.registration-form li button {
+
+    color: rgb(10, 10, 10);
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(4, 151, 7);
+    border: none;
+
+}
+
+.user {
+    background-image: url("/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 23em 47em;
+
+
+}
+
+.name {
+
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.discription {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    width:13em;
+
+
+}
+
+.birthdate {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 14px;
+
+}
+
+
+
+
+
+    </style>
+    
+</head>
+<body class="mainpage">
+
+    
+    <h3>Payment Successful! </h3>
+    <div class="display">
+        <form  action="/register" method="post">
+
+        
+            <h2> WelCome </h2>
+
+    
+            <h4> Read about Yourself </h4>
+    
+            <li> <input type="text" placeholder="Name" name="name"></li><br>
+    
+            <li> <select name="month">
+                    <option disabled selected value> Select Month </option>
+                    <option value="January">January</option>
+                    <option value="Febuary">Febuary</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+            </li><br></select>
+    
+    
+            <li> <select name="date">
+                    <option disabled selected value> Date </option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+            </li><br></select>
+    
+    
+    
+            <li> <select name="gender">
+                    <option disabled selected value> Gender </option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+            </li><br></select>
+    
+            <li><button type="submit">Submit</button></li>
+    
+    
+        </form>
+    </div>
+
+    
+    <!-- <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class="card"> -->
+                <!-- <h5 class="card-header">Payment Successful!</h5>
+    
+                <div class="card-body">
+                    <p class="card-text">Thank you for contributing to us. Uparwala tumhara bhala kare.</p> -->
+    
+                    <!-- <dl class="row mt-2">
+                        <dt class="col-sm-3">Order ID</dt>
+                        <dd class="col-sm-9" id="orderId"><%- paymentDetail.orderId %>  </dd>
+                                            
+                        <dt class="col-sm-3">Transaction ID</dt>
+                        <dd class="col-sm-9" id="orderId"><%- paymentDetail.paymentId %>  </dd>
+    
+                        <dt class="col-sm-3">Signature</dt>
+                        <dd class="col-sm-9" id="orderId"><%- paymentDetail.signature %>  </dd>
+    
+                        <dt class="col-sm-3">Amount</dt>
+                        <dd class="col-sm-9"><%- paymentDetail.amount/100 %> Rs. </dd>
+    
+                        <dt class="col-sm-3">Created at</dt>
+                        <dd class="col-sm-9"><%- paymentDetail.createdAt %> </dd>
+                    </dl> -->
+    
+                    <!-- <a href="/" type="button" class="btn btn-primary">Go Home</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    
+
+</body>
+</html>
